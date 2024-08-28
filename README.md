@@ -1,5 +1,5 @@
 # VUMAT-Hershey-MJC
-This project contains an Abaqus VUMAT subroutine continuum elements.
+This project contains an Abaqus VUMAT subroutine for 3D continuum elements.
 The implemented material model uses the Modified Johnson Cook (MJC) thermo-viscoplastic model and the Hershey yield surface. 
 To perform the return mapping (update the stress, strain and internal variables), the cutting-plane method is used.
 
