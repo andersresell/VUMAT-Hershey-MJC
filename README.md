@@ -28,7 +28,7 @@ Below it is shown how to specify the material of the subroutine in the input fil
 **2, T, "Temperature"
 ```
 
-The various constants are breifly explained below, but it is adviced to read the corresponding report (at [caeassistant.com](https://caeassistant.com/)) to for more detail.
+The various constants are breifly explained below, but it is adviced to read the corresponding report (at [caeassistant.com](https://caeassistant.com/)) for more detail.
 - E - youngs modulus
 - nu - poisson ratio
 - sigma0 - initial yield stress
