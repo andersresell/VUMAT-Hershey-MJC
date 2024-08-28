@@ -11,21 +11,22 @@ for a complete version of the code, visit caeassistant.com
 
 Below it is shown how to specify the material of the subroutine in the input file:
 
->*Material, name=VUMAT
->*density
->7.0e-9
->*user material, CONSTANTS=17
->**      E,     nu,  sigma0,  Q1,   C1,     Q2,      C2,    Q3,
->210000.0,    0.3,  290.7,   129.2, 168.6, 209.8,   10.68,  455.3,      
->**       C3,   n (hershey),  cp,      betaTQ,  T0,      Tm,       m,    pdot0,
->         0.805,  2.,            452e6,   0.9,     293.0,   1800.0,   1000.0,  5e-5,
->**       c
->         0.0
->*depvar
->2
->**1, p, "Euivalent plastic strain" 
->**2, T, "Temperature"
-
+```
+*Material, name=VUMAT
+*density
+7.0e-9
+*user material, CONSTANTS=17
+**      E,     nu,  sigma0,  Q1,   C1,     Q2,      C2,    Q3,
+210000.0,    0.3,  290.7,   129.2, 168.6, 209.8,   10.68,  455.3,      
+**       C3,   n (hershey),  cp,      betaTQ,  T0,      Tm,       m,    pdot0,
+         0.805,  2.,            452e6,   0.9,     293.0,   1800.0,   1000.0,  5e-5,
+**       c
+         0.0
+*depvar
+2
+**1, p, "Euivalent plastic strain" 
+**2, T, "Temperature"
+```
 
 The various constants are breifly explained below, but it is adviced to read the corresponding report to see their meaning in more detail.
 - E - youngs modulus
