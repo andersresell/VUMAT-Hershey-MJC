@@ -7,7 +7,7 @@ Part of the source files can be viewed in subroutine directory. For a complete v
 
 ![Viewport comparison of a single element simple shear test](snapshot.png)
 
-## USAGE:
+## USAGE
 
 Below it is shown how to specify the material of the subroutine in the input file:
 
