@@ -3,7 +3,7 @@ This project contains an Abaqus VUMAT subroutine for 3D continuum elements.
 The implemented material model uses the Modified Johnson Cook (MJC) thermo-viscoplastic model and the Hershey yield surface. 
 To perform the return mapping (update the stress, strain and internal variables), the cutting-plane method is used.
 
-Part of the source files can be viewed in subroutine directory. For a complete version of the code, as well as a detailed report covering the theory, visit [caeassistant.com](https://caeassistant.com/).
+Part of the source files can be viewed in subroutine directory. For a complete version of the code, as well as a detailed report covering the theory, visit [caeassistant]([https://caeassistant.com/](https://caeassistant.com/product/modified-johnson-cook-viscoplastic-model-hershey-yield-surface/)).
 
 ![Viewport comparison of a single element simple shear test](snapshot.png)
 
